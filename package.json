@@ -1,0 +1,26 @@
+{
+  "name": "urban-train",
+  "version": "1.0.0",
+  "description": "Swagger and Express together in mock restaurant database example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBenAnderson/urban-train.git"
+  },
+  "author": "JBenAnderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JBenAnderson/urban-train/issues"
+  },
+  "homepage": "https://github.com/JBenAnderson/urban-train#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
