@@ -68,7 +68,22 @@
                     }
                 }
             }
+        },
+        "/restaurant/{id}": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "required": true,
+                    "description": "ID of restaurant that we want to delete",
+                    "type": "integer"
+                }
+            ],
+            "delete": {
+
+            }
         }
+        
     },
     "definitions": {
         "Restaurant": {
